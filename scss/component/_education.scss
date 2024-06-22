@@ -1,0 +1,176 @@
+
+.education{
+    width: 98%;
+    height: auto;
+    margin: 0 auto; 
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+    .education-link{
+display: flex;
+align-items: center;
+gap: 15px;
+font-family: Michroma;
+font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+      text-align: left;
+      .kuk{
+    width: 20px;
+ height: 20px;
+    border-radius: 100%;
+    background-color: #184AFB;
+               }
+    }
+    .education-title{
+        font-family: Poppins;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+text-align: center;
+    }
+.education-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .education-cards-card{
+width: 95%;
+height: auto;
+border-radius: 12px;
+border: 1px solid #CCCCCC;
+display: flex;
+flex-direction: column;
+padding: 30px;
+gap: 30px;
+h3{
+    font-family: Michroma;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #2E3038;
+}
+img{
+    width: 100%;
+    height: auto;
+   object-fit: cover;
+}
+h4{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #2E303899;
+}
+h2{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+cursor: pointer;
+letter-spacing: 0.01em;
+text-align: left;
+color: #184AFB;
+display: flex;
+gap: 15px;
+}
+    }
+}
+}
+
+@media (min-width:800px) {
+    .education{
+        width: 98%;
+        height: auto;
+        margin: 0 auto; 
+        border-bottom: 1px solid #CCCCCC;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 10px;
+        .education-link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Michroma;
+    font-size: 25px;
+       font-weight: 400;
+       line-height: 24px;
+          text-align: left;
+          .kuk{
+        width: 20px;
+     height: 20px;
+        border-radius: 100%;
+        background-color: #184AFB;
+                   }
+        }
+        .education-title{
+            font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+        }
+        .education-cards {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;   
+            gap: 10px;
+        
+            .education-cards-card {
+                flex: 1; 
+                border-radius: 12px;
+                border: 1px solid #CCCCCC;
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                gap: 30px;
+        
+                h3 {
+                    font-family: Michroma;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #2E3038;
+                }
+        
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+        
+                h4 {
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    color: #2E303899;
+                }
+        
+                h2 {
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    cursor: pointer;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                    color: #184AFB;
+                    display: flex;
+                    gap: 15px;
+                }
+            }
+        }
+        
+    }
+    
+}
