@@ -2,9 +2,11 @@
 .main{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: auto;
     gap: 10px;
     padding: 5px;
    margin-top: 2cm;
-   width: 98%;
+overflow: hidden;
    scroll-behavior: smooth;
 }

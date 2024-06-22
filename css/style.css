@@ -488,10 +488,12 @@ body {
 .main {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: auto;
   gap: 10px;
   padding: 5px;
   margin-top: 2cm;
-  width: 98%;
+  overflow: hidden;
   scroll-behavior: smooth;
 }
 
@@ -898,6 +900,13 @@ body {
   align-items: center;
   gap: 10px;
 }
+@media (min-width: 800px) {
+  .education .education-cards {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 10px;
+  }
+}
 .education .education-cards .education-cards-card {
   width: 95%;
   height: auto;
@@ -907,6 +916,11 @@ body {
   flex-direction: column;
   padding: 30px;
   gap: 30px;
+}
+@media (min-width: 800px) {
+  .education .education-cards .education-cards-card {
+    flex: 1;
+  }
 }
 .education .education-cards .education-cards-card h3 {
   font-family: Michroma;
@@ -944,88 +958,7 @@ body {
 }
 
 @media (min-width: 800px) {
-  .education {
-    width: 98%;
-    height: auto;
-    margin: 0 auto;
-    border-bottom: 1px solid #CCCCCC;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 10px;
-  }
   .education .education-link {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-family: Michroma;
     font-size: 25px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-  }
-  .education .education-link .kuk {
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background-color: #184AFB;
-  }
-  .education .education-title {
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 52px;
-    text-align: center;
-  }
-  .education .education-cards {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    gap: 10px;
-  }
-  .education .education-cards .education-cards-card {
-    flex: 1;
-    border-radius: 12px;
-    border: 1px solid #CCCCCC;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    gap: 30px;
-  }
-  .education .education-cards .education-cards-card h3 {
-    font-family: Michroma;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #2E3038;
-  }
-  .education .education-cards .education-cards-card img {
-    width: 100%;
-    height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .education .education-cards .education-cards-card h4 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: rgba(46, 48, 56, 0.6);
-  }
-  .education .education-cards .education-cards-card h2 {
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    cursor: pointer;
-    letter-spacing: 0.01em;
-    text-align: left;
-    color: #184AFB;
-    display: flex;
-    gap: 15px;
   }
 }
