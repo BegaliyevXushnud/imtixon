@@ -1,0 +1,104 @@
+
+.stage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    .stage-sec{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    color: #2E3038;
+        }
+        .stage-card{
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 20px;
+            .stage-cards-card{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            .scce-img{
+                height: auto;
+                background-color: #F5F5F5;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 30px;
+            }
+            h3{
+                font-family: Michroma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #2E3038;
+            }
+            }
+        }
+    }
+  
+}
+
+@media (min-width:800px) {
+    .stage{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    align-items: end;
+        gap: 20px;
+        padding: 10px;
+        .stage-sec{
+            width: 70%;
+           gap: 30px;
+            h2{
+                font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 52px;
+        text-align: left;
+        color: #2E3038;
+            }
+            .stage-card{
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-gap: 20px;
+                .stage-cards-card{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                .scce-img{
+                    height: auto;
+                    background-color: #F5F5F5;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 30px;
+                }
+                h3{
+                    font-family: Michroma;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #2E3038;
+                }
+                }
+            }
+        }
+        }
+    }

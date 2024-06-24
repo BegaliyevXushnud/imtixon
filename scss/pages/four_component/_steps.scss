@@ -1,0 +1,113 @@
+
+.steps{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .steps-items{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h2{
+            font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+text-align: left;
+color: #2E3038;
+        }
+        .steps-item-cards{
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 10px;
+            .sic-card{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+                border-bottom: 1px solid #D9D9D9;
+                img{
+                    width: 102px;
+height: 92px;
+object-fit: cover;
+border-radius: 8px;
+                }
+                .sic-card-text{
+                    h3{
+                        font-family: Michroma;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #2E303899;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:700px) {
+    .steps{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+        .steps-items{
+            width: 70%;
+            height: auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h2{
+                font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+text-align: left;
+color: #2E3038;
+            }
+            .steps-item-cards{
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-gap: 10px;
+                .sic-card{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 10px;
+                    border-bottom: 1px solid #D9D9D9;
+                    img{
+                        width: 102px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 8px;
+                    }
+                    .sic-card-text{
+                        width: 90%;
+                        h3{
+                            font-family: Michroma;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #2E303899;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.third-Partneur{
+    width: 98%;
+    height: auto;
+    margin: 0 auto; 
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 15px;
+    .Partneur-link{
+display: flex;
+align-items: center;
+gap: 15px;
+font-family: Michroma;
+font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+      text-align: left;
+      .kuk{
+    width: 20px;
+ height: 20px;
+    border-radius: 100%;
+    background-color: #184AFB;
+               }
+    }
+.Partneur-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .Partneur-item-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h2{
+            font-family: Poppins;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+text-align: left;
+color: #2E3038;
+        }
+        h3{
+            font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #828388;
+        }
+    }
+    .Partneur-item-cards{
+        width: 100%;
+        height: auto;
+       display: grid;
+       grid-template-columns: auto;
+       grid-gap: 10px;
+       .Pi-cards-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 1px solid #CCCCCC;
+        padding: 10px;
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        h2{
+            font-family: Michroma;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #2E303899;
+display: flex;
+align-items: center;
+gap: 15px;
+span{
+    color: #184AFB;
+    font-size: 23px;
+}
+        }
+       }
+    }
+}
+}
+@media (min-width:1000px) {
+    .third-Partneur{
+        width: 98%;
+        height: auto;
+        margin: 0 auto; 
+        border-top: 1px solid #CCCCCC;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 15px;
+        .Partneur-link{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    font-family: Michroma;
+    font-size: 16px;
+       font-weight: 400;
+       line-height: 24px;
+          text-align: left;
+          .kuk{
+        width: 20px;
+     height: 20px;
+        border-radius: 100%;
+        background-color: #184AFB;
+                   }
+        }
+    .Partneur-item{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .Partneur-item-text{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 10px;
+            h2{
+                font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+    color: #2E3038;
+            }
+            h3{
+                font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #828388;
+            }
+        }
+        .Partneur-item-cards{
+            width: 100%;
+            height: auto;
+           display: grid;
+           grid-template-columns: auto auto auto;
+           .Pi-cards-card{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border-bottom: 1px solid #CCCCCC;
+            padding: 10px;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+            h2{
+                font-family: Michroma;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #2E303899;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        color: #184AFB;
+        font-size: 32px;
+    }
+            }
+           }
+        }
+    }
+    }
+}
